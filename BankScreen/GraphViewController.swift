@@ -6,7 +6,7 @@ class GraphViewController: UIViewController {
     let graphCompensationMultiplyer = 15.0
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        setBackgroundGraph(imageName: "graph-paper.png")
         graphDraw(pointsArray: buildGraphPointsArray())
     }
     
@@ -45,5 +45,13 @@ class GraphViewController: UIViewController {
             pointsMinMax.append((point.0, graphCompensationMultiplyer*(point.1-minArray!.1)))
         }
         return pointsMinMax
+    }
+    
+    func setBackgroundGraph(imageName: String) {
+        let backgroundImageView = UIImageView(image: UIImage(named: imageName))
+        backgroundImageView.frame = view.frame
+        backgroundImageView.contentMode = .scaleAspectFill
+        view.addSubview(backgroundImageView)
+        view.sendSubviewToBack(backgroundImageView)
     }
 }

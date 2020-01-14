@@ -27,6 +27,7 @@
 		CFBA403C23CC76E100F7D691 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA403B23CC76E100F7D691 /* NetworkRequest.swift */; };
 		CFBA403E23CCB5F700F7D691 /* RuntimeStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFBA403D23CCB5F700F7D691 /* RuntimeStorage.swift */; };
 		CFDC780623CCE2F9003B878C /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDC780523CCE2F9003B878C /* GraphViewController.swift */; };
+		CFDC780D23CDD8AB003B878C /* graph-paper.png in Resources */ = {isa = PBXBuildFile; fileRef = CFDC780C23CDD8AB003B878C /* graph-paper.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		CFBA403B23CC76E100F7D691 /* NetworkRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
 		CFBA403D23CCB5F700F7D691 /* RuntimeStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuntimeStorage.swift; sourceTree = "<group>"; };
 		CFDC780523CCE2F9003B878C /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		CFDC780C23CDD8AB003B878C /* graph-paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "graph-paper.png"; sourceTree = "<group>"; };
 		DC649487B9B46D2E1AC831B0 /* Pods-BankScreen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BankScreen.release.xcconfig"; path = "Target Support Files/Pods-BankScreen/Pods-BankScreen.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -114,6 +116,7 @@
 				CFB3258523CB2449002FF84A /* Assets.xcassets */,
 				CFB3258A23CB2449002FF84A /* Info.plist */,
 				CFB3258223CB2445002FF84A /* HomeScreen.xcdatamodeld */,
+				CFDC780C23CDD8AB003B878C /* graph-paper.png */,
 			);
 			path = BankScreen;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFDC780D23CDD8AB003B878C /* graph-paper.png in Resources */,
 				CFB3258923CB2449002FF84A /* LaunchScreen.storyboard in Resources */,
 				CFB3258623CB2449002FF84A /* Assets.xcassets in Resources */,
 				CFB3258123CB2445002FF84A /* Main.storyboard in Resources */,
